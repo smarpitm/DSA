@@ -8,6 +8,7 @@ int main()
     vector<int> arr;
     int n;
     cin >>  n;
+    arr.resize(n);
     for (int l = 0; l < n;l++)
     {
         cin >>arr[l];
