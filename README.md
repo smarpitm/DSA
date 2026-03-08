@@ -13,3 +13,6 @@ i did the following questions in arrays :
 7. rotate array by 1
 now i started sorting in arrays:
 1.selection sort
+2.insertion sort
+3.bubble sort
+done with binary search in 1 d arrays now
