@@ -1,0 +1,31 @@
+{
+  "name": "dsa-input-output-split",
+  "displayName": "DSA Input/Output Split",
+  "publisher": "local",
+  "description": "Automatically opens input.txt and output.txt side by side when a C++ file is opened.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "activationEvents": [
+    "onLanguage:cpp",
+    "onCommand:dsaIO.openInputOutput",
+    "onCommand:dsaIO.openAndRun"
+  ],
+  "main": "extension.js",
+  "categories": [
+    "Other"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "dsaIO.openInputOutput",
+        "title": "Open input.txt and output.txt"
+      },
+      {
+        "command": "dsaIO.openAndRun",
+        "title": "Open C++ I/O and Run"
+      }
+    ]
+  }
+}
