@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
   
-  """
+  /*
    Count digits in a number
 
 
@@ -23,7 +23,18 @@ Example 2:
 Input:N = 7789              
 Output: 4
 Explanation: The number 7789 has 4 digits. 
-"""
+*/
+
+int n;
+cin >> n;
+int counter = 0;
+while (n>0)
+{
+  int digit = n % 10;
+  counter = counter + 1;
+  n = n / 10;
+}
+cout << counter;
 
 
 }
