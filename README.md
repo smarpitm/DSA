@@ -1,62 +1,86 @@
 # 📚 My DSA Learning Journey
 
-Welcome to my Data Structures and Algorithms practice repository! This is where I document my learning progress, track completed problems, and explore different algorithmic concepts.
+Welcome to my Data Structures and Algorithms practice repository! This is where I track learning progress, solve problems in C++, and build a stronger foundation step by step.
 
-## 🎯 What's Inside
+## 🎯 What’s Inside
 
-This repository is organized by topics and difficulty levels, featuring implementations and solutions in C++.
+This repository is organized by topic and difficulty level, with code samples and problem solutions in C++.
 
-### ✅ Completed Topics
+## ✅ Current Progress
 
-#### C++ Fundamentals
+### C++ Fundamentals
 - Input/Output (`cin`, `cout`)
 - Conditionals (`if`, `else`)
 - Loops (`for`, `while`, `do-while`)
-- Functions and function syntax
-- Basic mathematics and number operations
+- Functions and syntax
+- Simple math and decision-making problems
 
-#### Pattern Problems
-- Various pattern generation problems
-- Recursive and iterative approaches
+### Pattern Practice
+- Pattern generation and printing
+- Working through both simple and 2-pointer pattern problems
 
-#### Arrays
-- Array basics and operations
-- Vector implementation and usage
-- **Problems Solved:**
-  - Find maximum element
-  - Find minimum element
+### Array Fundamentals
+- Array operations and traversal
+- Vector usage and implementation
+- Practice problems in `theory/arraysquestions`
+- **Solved problems include:**
+  - Maximum element
+  - Minimum element
   - Linear search
-  - Reverse an array
-  - Find 2nd maximum element
+  - Reverse array
+  - 2nd maximum element
   - Missing number problem
-  - Rotate array by 1 position
+  - Rotate array by 1
+  - Cyclic rotation
+  - Remove duplicates
+  - Move zeros to the end
+  - Union of two arrays
 
-#### Sorting in Arrays
+### Sorting Algorithms
 - Selection Sort
 - Insertion Sort
 - Bubble Sort
+- Implemented solutions in `theory/sortinginarrays`
 
-#### Binary Search
-- 1D array binary search concepts
+### Searching Algorithms
+- Binary search concepts and practice in `theory/arraysfurther/binarysearch.cpp`
 
+### Striver Sheet — Basic Maths
+- Completed problems in `striversheet/basic maths`
+- Includes Armstrong number, palindrome checks, divisor counting, reverse number, and basic number practice problems
 
+## 📁 Repository Structure
 
-## 📈 Learning Path
+```
+dsa/
+├── theory/              # Core concepts and practice code
+│   ├── cpp basics/      # C++ language basics
+│   ├── arraysbasics/    # Array fundamentals
+│   ├── arraysfurther/   # Advanced array concepts and search
+│   ├── arraysquestions/ # Array problem practice
+│   ├── sortinginarrays/ # Sorting algorithms
+│   └── STL/             # Standard Template Library examples
+├── striversheet/        # Curated practice problems
+│   ├── basic maths/     # Math-focused problems
+│   └── arrays/          # Array problems by difficulty
+└── patterns/            # Patterns and pointer problems
+```
 
-I'm following a structured approach:
-1. Master the fundamentals of C++
-2. Understand core data structures (Arrays, Vectors)
-3. Implement and practice sorting algorithms
-4. Explore search techniques and optimization
-5. Move to more complex data structures
+## 🚀 Current Focus
 
-## 🎓 Next Steps
+- Strengthen array problem solving in `theory/arraysquestions`
+- Continue Striver Sheet practice in `striversheet/arrays`
+- Improve understanding of binary search and sorted array problems
+- Build consistency with solving, testing, and documenting each solution
 
-- [ ] Complete array problems at all difficulty levels
-- [ ] Deep dive into searching algorithms
-- [ ] Explore linked lists
-- [ ] Learn hash maps and sets
-- [ ] Practice dynamic programming
+## 🎓 Next Goals
+
+- [ ] Finish Striver Sheet `arrays` problems
+- [ ] Start linked list implementations
+- [ ] Learn hash maps and set-based problems
+- [ ] Begin dynamic programming basics
+- [ ] Add more problem notes and solution comments
 
 ---
 
+**Last Updated:** June 2026
