@@ -1,1 +1,7 @@
-37
+abcdabefg
+5
+b
+g
+c
+z
+a
