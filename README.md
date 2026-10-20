@@ -84,3 +84,7 @@ dsa/
 ---
 
 **Last Updated:** June 2026
+the q i did of leetcode
+square if sorted array
+merge sort array
+
