@@ -2,6 +2,28 @@
 #include <vector>
 using namespace std;
 
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& numbers, int target) {
+        int left = 0;
+        int right = numbers.size() - 1;
+
+        while (right > left) {
+            int current_sum = numbers[left] + numbers[right];
+
+            if (current_sum > target) {
+                right--;
+            } else if (current_sum == target) {
+                return {left + 1, right + 1};
+            } else {
+                left++;
+            }
+        }
+
+        return {};
+    }
+};
+
 int main()
 {
    /*
